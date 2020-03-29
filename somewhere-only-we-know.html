@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work — Ebby Kuo</title>
+    <!-- favicon's ico-->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- fontawesome: bar -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <!-- SCSS's style -->
+    <link rel="stylesheet" href="css/somewhere-only-we-know.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <div class="logo_show">
+                            <img src="./img/logo/logo.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                        <div class="logo_hover">
+                            <img src="./img/logo/logo_hover.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav_btn">
+                <li>
+                    <a class="text" href="about.html">About</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a class="text" href="index.html">Work</a>
+                </li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="banner">
+            <div class="image">
+                <img src="./img/work/art-Somewhere only we know/somewhere-banner.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <div class="title">
+                    <h4>SOMEWHERE <br>
+                        <span>ONLY WE KNOW</span>
+                    </h4>
+                    <h5>秘密基地</h5>
+                </div>
+                <div class="text_concent">
+                    <p class="ch">「他們以為這片廢墟再也不會有人來了，其實我們每晚都偷偷聚在這裡。」</p>
+                    <div class="block"></div>
+                    <p class="en">Personal work (non-commercial purposes)</p>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="image image1">
+                    <img src="./img/work/art-Somewhere only we know/somewhere02.jpg" alt="">
+                </div>
+                <div class="image image2">
+                    <img src="./img/work/art-Somewhere only we know/somewhere03.jpg" alt="">
+                </div>
+                <div class="image image3">
+                    <img src="./img/work/art-Somewhere only we know/somewhere01.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Ebby Kuo. All rights reserved.</p>
+    </footer>
+
+    <!-- ↓ bar -->
+    <script>
+        var nav_btn = document.querySelector(".nav_btn");
+        var bar = document.querySelector(".bar");
+
+        bar.onclick = function () {
+            nav_btn.classList.toggle("active");
+        }
+
+    </script>
+</body>
+
+</html>
