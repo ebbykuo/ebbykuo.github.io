@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 481 170" style="enable-background:new 0 0 481 170;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{font-family:'MicrosoftJhengHeiUIRegular';}
+	.st3{font-size:12.4562px;}
+	.st4{font-family:'MicrosoftJhengHeiBold';}
+	.st5{font-size:18.6428px;}
+	.st6{fill:#B4000D;}
+	.st7{fill:#FFFFFF;}
+	.st8{fill:none;stroke:#6D6E71;stroke-miterlimit:10;}
+	.st9{fill:#00E7B0;}
+	.st10{fill:#C39983;}
+	.st11{fill:none;stroke:#000000;stroke-width:0.792;stroke-miterlimit:10;}
+	.st12{fill:#FFC72E;}
+	.st13{fill:#5CAAFF;}
+	.st14{fill:#FFB673;}
+	.st15{fill:none;stroke:#915B08;stroke-width:1.7;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#A87C50;stroke-width:1.3;stroke-miterlimit:10;}
+</style>
+<g id="BG">
+</g>
+<g id="Layer_1">
+	<g class="st0">
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 310.1938 -5.7223)" class="st2 st3">Toilet</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 62.3174 62.0405)" class="st2 st3">Shower</text>
+			<text transform="matrix(1.2096 0 0.3747 0.9272 55.3358 46.9272)" class="st4 st5">淋浴間</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 21.2791 102.7149)" class="st2 st3">Kitchen</text>
+			<text transform="matrix(1.2096 0 0.3747 0.9272 13.8019 87.6015)" class="st4 st5">廚房</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 -45.345 145.9099)" class="st2 st3">Reception</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 355.5214 164.8885)" class="st6 st2 st3">Common Space</text>
+			<text transform="matrix(1.2096 0 0.3747 0.9272 347.5321 149.7742)" class="st6 st4 st5">客廳</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 427.6512 117.3166)" class="st2 st3">Room</text>
+			<text transform="matrix(1.2096 0 0.3747 0.9272 420.6008 102.2024)" class="st4 st5">和室</text>
+		</g>
+		<g class="st1">
+			<text transform="matrix(1.2096 0 0.3747 0.9272 485.6219 79.7289)" class="st2 st3">Patio</text>
+			<text transform="matrix(1.2096 0 0.3747 0.9272 478.5742 64.6128)" class="st4 st5">庭院</text>
+		</g>
+	</g>
+	<g>
+		<g>
+			<polygon class="st7" points="252.1,165 16.1,165 235.7,22.1 471.9,22.1 			"/>
+			<line class="st8" x1="285.2" y1="45.2" x2="250.5" y2="45.2"/>
+			<polyline class="st9" points="196.2,70.7 115.1,123.5 81.5,123.5 162.9,70.7 196.2,70.7 			"/>
+			<polygon class="st10" points="342.1,29.6 274.8,29.6 286.4,22.1 353.8,22.1 			"/>
+			<path class="st11" d="M259.2,40.6"/>
+			<path class="st11" d="M291.7,40.6"/>
+			<polygon class="st12" points="117.9,153.4 33.6,153.4 79.7,123.5 164.1,123.5 			"/>
+			<line class="st11" x1="79.7" y1="123.5" x2="161" y2="70.7"/>
+			<polygon class="st13" points="268.2,34.9 216.1,34.9 161,70.7 213.1,70.7 			"/>
+			<polyline class="st8" points="207.3,40.6 235.7,22.1 353.8,22.1 318.4,45.2 			"/>
+			<polygon class="st14" points="285.2,45.2 245.3,70.7 177.4,114.9 329.2,114.9 397.1,70.7 437,45.2 			"/>
+			<polygon class="st15" points="252.1,165 16.1,165 235.7,22.1 471.9,22.1 			"/>
+		</g>
+		<line class="st16" x1="149.5" y1="35.3" x2="191.7" y2="39.7"/>
+		<line class="st16" x1="80.6" y1="77.4" x2="123" y2="81.8"/>
+		<line class="st16" x1="7.4" y1="126.8" x2="49.7" y2="131.1"/>
+		<line class="st16" x1="390.4" y1="84.1" x2="429.2" y2="80.8"/>
+		<line class="st16" x1="291.3" y1="149.6" x2="330.1" y2="147.1"/>
+		<line class="st16" x1="316.6" y1="14.3" x2="334" y2="2"/>
+	</g>
+</g>
+<g id="guide" class="st0">
+</g>
+<circle class="st0" cx="316.6" cy="14.3" r="1.8"/>
+<circle class="st0" cx="191.7" cy="39.7" r="1.8"/>
+<circle class="st0" cx="390.4" cy="84.1" r="1.8"/>
+<circle class="st0" cx="291.3" cy="149.6" r="1.8"/>
+<circle class="st0" cx="123" cy="81.8" r="1.8"/>
+<circle class="st0" cx="49.3" cy="131" r="1.8"/>
+</svg>
