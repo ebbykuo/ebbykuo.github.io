@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work — Ebby Kuo</title>
+    <!-- favicon's ico-->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- fontawesome: bar -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <!-- SCSS's style -->
+    <link rel="stylesheet" href="css/hotel-masstige.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <div class="logo_show">
+                            <img src="./img/logo/logo.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                        <div class="logo_hover">
+                            <img src="./img/logo/logo_hover.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav_btn">
+                <li>
+                    <a class="text" href="about.html">About</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a class="text" href="index.html">Work</a>
+                </li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="banner">
+            <div class="image">
+                <img src="./img/work/art-Hotel Masstige/85-01.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <div class="title">
+                    <h4>HOTEL MASSTIGE <br>
+                        MURAL ART</h4>
+                    <h5>瑪斯提設計旅店
+                        <p>彩繪設計</p>
+                    </h5>
+                </div>
+                <div class="text_concent">
+                    <div class="block"></div>
+                    <p class="en">Mural painting</p>
+                </div>
+            </div>
+            <div class="work_img">
+                <div class="image">
+                    <img src="./img/work/art-Hotel Masstige/85-03肉魯.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="./img/work/art-Hotel Masstige/85-04肉魯.jpg" alt="">
+                </div>
+                <div class="image">
+                    <img src="./img/work/art-Hotel Masstige/85-02.jpg" alt="">
+                </div>
+            </div>
+            <p class="copyright">以上圖片版權為瑪斯提設計旅店及旅遊作家/肉魯所有</p>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Ebby Kuo. All rights reserved.</p>
+    </footer>
+
+    <!-- ↓ bar -->
+    <script>
+        var nav_btn = document.querySelector(".nav_btn");
+        var bar = document.querySelector(".bar");
+
+        bar.onclick = function () {
+            nav_btn.classList.toggle("active");
+        }
+
+    </script>
+</body>
+
+</html>
