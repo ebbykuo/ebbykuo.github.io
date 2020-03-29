@@ -191,29 +191,21 @@ section{
                     transition: 0.3s;
                 }
             }
-            .bg1{
+            .image1{
                 max-width: 1920px;
-                margin: auto;
-                background-color: #1a1a1a;
-            }
-            .group{
-                max-width: 1140px;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                width: 100%;
+                margin: 10% 0 15%;
                 img{
-                    width: calc(98% / 3);
+                    width: 100%;
                 }
             }
-            .bg2{
-                max-width: 1920px;
+            .group1{
+                max-width: 1140px;
                 margin: auto;
-                background-color: #ffff00;
+                img{
+                    width: 100%;
+                    display: block;
+                }
             }
-            // .image3{
-            //     max-width: 1140px;
-            // }
         }
     }
 }

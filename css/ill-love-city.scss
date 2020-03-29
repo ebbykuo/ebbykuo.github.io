@@ -322,9 +322,7 @@ section{
                 }
             }
             .D_top{
-                @media (min-width:700px){
-                    margin-bottom: 2%;
-                }
+                display: block;
             }
         }
     }

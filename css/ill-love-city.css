@@ -462,10 +462,8 @@ section .work_img .imageC img {
   }
 }
 
-@media (min-width: 700px) {
-  section .work_img .group3 .D_top {
-    margin-bottom: 2%;
-  }
+section .work_img .group3 .D_top {
+  display: block;
 }
 
 footer p {

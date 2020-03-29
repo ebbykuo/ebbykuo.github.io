@@ -280,33 +280,23 @@ section .content .intro .text_concent .en {
   }
 }
 
-section .content .work_img .bg1 {
+section .content .work_img .image1 {
   max-width: 1920px;
-  margin: auto;
-  background-color: #1a1a1a;
+  margin: 10% 0 15%;
 }
 
-section .content .work_img .group {
-  max-width: 1140px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+section .content .work_img .image1 img {
   width: 100%;
 }
 
-section .content .work_img .group img {
-  width: calc(98% / 3);
+section .content .work_img .group1 {
+  max-width: 1140px;
+  margin: auto;
 }
 
-section .content .work_img .bg2 {
-  max-width: 1920px;
-  margin: auto;
-  background-color: #ffff00;
+section .content .work_img .group1 img {
+  width: 100%;
+  display: block;
 }
 
 footer p {
