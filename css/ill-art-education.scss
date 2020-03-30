@@ -203,40 +203,40 @@ section{
             }
             .image , img{
                 width: 100%;
-                margin-bottom: 10px;
-                transition: 0.3s;
+                @media (max-width:700px){
+                    margin-bottom: 10px;
+                    transition: 0.3s;
+                }
             }
-            .image:nth-child(1){
+            .image1{
                 @media (min-width:700px){
                     width: 100%;
                     margin: 0 auto;
                     margin-bottom: 10%;
                 }
             }
-            .image:nth-child(2){
+            .image2{
                 @media (min-width:700px){
                     width: 70%;
                     margin-left: auto;
                 }
-            }
-            .image:nth-child(3){
-                @media (min-width:700px){
-                    width: 80%;
-                    margin:7% 0;
-                    margin-top: 20%;
+                p{
+                    margin: 0;
+                    color: rgb(138, 136, 136);
+                    text-align: right;
                 }
             }
-            .image:nth-child(4){
-                @media (min-width:700px){
-                    width: 80%;
-                    margin:7% 0;
-                    margin-top: 10%;
+            .image3{
+                margin-top: 20%;
+                p{
+                    font-size: 30px;
+                    font-weight: bolder;
+                }
+                img{
+                    display: block;
                 }
             }
-            p{
-                margin: 0;
-                color: rgb(138, 136, 136);
-            }
+            
         }
     }
 }

@@ -298,13 +298,18 @@ section .content .intro .text_concent .en {
 
 section .content .work_img .image, section .content .work_img img {
   width: 100%;
-  margin-bottom: 10px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+}
+
+@media (max-width: 700px) {
+  section .content .work_img .image, section .content .work_img img {
+    margin-bottom: 10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
 }
 
 @media (min-width: 700px) {
-  section .content .work_img .image:nth-child(1) {
+  section .content .work_img .image1 {
     width: 100%;
     margin: 0 auto;
     margin-bottom: 10%;
@@ -312,31 +317,29 @@ section .content .work_img .image, section .content .work_img img {
 }
 
 @media (min-width: 700px) {
-  section .content .work_img .image:nth-child(2) {
+  section .content .work_img .image2 {
     width: 70%;
     margin-left: auto;
   }
 }
 
-@media (min-width: 700px) {
-  section .content .work_img .image:nth-child(3) {
-    width: 80%;
-    margin: 7% 0;
-    margin-top: 20%;
-  }
-}
-
-@media (min-width: 700px) {
-  section .content .work_img .image:nth-child(4) {
-    width: 80%;
-    margin: 7% 0;
-    margin-top: 10%;
-  }
-}
-
-section .content .work_img p {
+section .content .work_img .image2 p {
   margin: 0;
   color: #8a8888;
+  text-align: right;
+}
+
+section .content .work_img .image3 {
+  margin-top: 20%;
+}
+
+section .content .work_img .image3 p {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+section .content .work_img .image3 img {
+  display: block;
 }
 
 footer p {
