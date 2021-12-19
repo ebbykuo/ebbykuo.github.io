@@ -348,7 +348,7 @@ section .content .work_img .group_styleframe {
 }
 
 section .content .work_img .group_gif {
-  max-width: 1140px;
+  max-width: 900px;
   margin: auto;
   padding: 0 5%;
 }
@@ -366,7 +366,7 @@ section .content .work_img .group_gif {
   }
   section .content .work_img .group_gif img {
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
 }
 

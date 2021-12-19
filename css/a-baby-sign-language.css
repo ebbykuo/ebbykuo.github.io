@@ -316,7 +316,7 @@ section .content .work_img .bg1 p {
 }
 
 section .content .work_img p {
-  max-width: 1140px;
+  max-width: 900px;
   margin: 0 auto 2%;
   padding: 0 5%;
   font-size: 25px;
@@ -324,7 +324,7 @@ section .content .work_img p {
 }
 
 section .content .work_img .group_color {
-  max-width: 1140px;
+  max-width: 900px;
   margin: auto;
   padding: 0 5%;
 }
