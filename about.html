@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About — Ebby Kuo</title>
+    <!-- favicon's ico-->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <!-- AOS's CSS link(要注意版本號) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- GoogleFont's link -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap" rel="stylesheet">
+    <!-- SCSS's style -->
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <div class="logo_show">
+                            <img src="./img/logo/logo.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                        <div class="logo_hover">
+                            <img src="./img/logo/logo_hover.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav_btn">
+                <li>
+                    <a class="text" href="about.html">About</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a class="text" href="index.html">Work</a>
+                </li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="aboutme">
+                <img src="./img/about/large_block.svg" alt="">
+                <h2>ABOUT ME</h2>
+                <div class="ch">
+                    <p>
+                        郭香吟，成長於臺灣臺南。<br>
+                        從事平面視覺設計、網頁設計，<br>
+                        時而也穿梭在插畫、多媒體影音、動態設計之中，<br>
+                        堅信著魔鬼藏在細節裡的精神，<br>
+                        以細膩攻破粗之大葉。
+                    </p>
+                </div>
+                <div class="en">
+                    <p>
+                        I am Ebby Kuo, from Tainan Taiwan. <br>
+                        I work as a graphic designer, <br>
+                        also do illustration and motion design. <br>
+                        Always believe that the devil is hidden in the details.
+                    </p>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="./img/about/ill.png" alt="">
+                <div class="text_group">
+                    <h2>CONTACT</h2>
+                    <p>ebbykuo@gmail.com</p>
+                    <img class="small01" src="./img/about/small01.svg" alt="">
+                    <img class="small02" src="./img/about/small02.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Ebby Kuo. All rights reserved.</p>
+    </footer>
+
+    <!-- ↓ bar -->
+    <script>
+        var nav_btn = document.querySelector(".nav_btn");
+        var bar = document.querySelector(".bar");
+
+        bar.onclick = function () {
+            nav_btn.classList.toggle("active");
+        }
+
+    </script>
+
+    <!-- 安裝Aos's JS(要注意版本號) -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Work — Ebby Kuo</title>
+    <!-- favicon's ico-->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- fontawesome: bar -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <!-- SCSS's style -->
+    <link rel="stylesheet" href="css/ill-love-city.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <div class="logo_show">
+                            <img src="./img/logo/logo.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                        <div class="logo_hover">
+                            <img src="./img/logo/logo_hover.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav_btn">
+                <li>
+                    <a class="text" href="about.html">About</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a class="text" href="index.html">Work</a>
+                </li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="banner">
+            <div class="image">
+                <img src="./img/work/ill-Love city/love-city-banner.svg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <div class="title">
+                    <h4>LOVE THE CITY</h4>
+                </div>
+                <div class="text_concent">
+                    <div class="block"></div>
+                    <p class="en">Personal work, Illustration</p>
+                </div>
+            </div>
+        </div>
+        <div class="work_img">
+            <div class="image image1">
+                <img src="./img/work/ill-Love city/love-city-01.jpg" alt="">
+            </div>
+            <div class="image bg">
+                <div class="image group1">
+                    <div class="AB">
+                        <div class="imageA">
+                            <img src="./img/work/ill-Love city/love-city-02.svg" alt="">
+                        </div>
+                        <div class="imageB">
+                            <img src="./img/work/ill-Love city/love-city-03.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <img class="bg_img" src="./img/work/ill-Love city/love-city-BG.svg" alt="">
+                <div class="image group2">
+                    <div class="C">
+                        <div class="imageC">
+                            <img src="./img/work/ill-Love city/love-city-04.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image group3">
+                <div class="D">
+                    <img class="D_top"src="./img/work/ill-Love city/love the city-mockup.jpg" alt="">
+                    <img src="./img/work/ill-Love city/love the city-mockup 02.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &copy; Ebby Kuo. All rights reserved.</p>
+    </footer>
+
+    <!-- ↓ bar -->
+    <script>
+        var nav_btn = document.querySelector(".nav_btn");
+        var bar = document.querySelector(".bar");
+
+        bar.onclick = function () {
+            nav_btn.classList.toggle("active");
+        }
+
+    </script>
+</body>
+
+</html>

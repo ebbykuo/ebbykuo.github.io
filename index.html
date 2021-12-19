@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ebby Kuo</title>
+    <!-- favicon's ico-->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <!-- SCSS's style -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                        <div class="logo_show">
+                            <img src="./img/logo/logo.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                        <div class="logo_hover">
+                            <img src="./img/logo/logo_hover.svg" alt="Ebby Kuo" title="Ebby Kuo">
+                        </div>
+                    </a>
+                </h1>
+            </div>
+            <ul class="nav_btn">
+                <li>
+                    <a class="text" href="about.html">About</a>
+                </li>
+                <span>|</span>
+                <li>
+                    <a class="text" href="index.html">Work</a>
+                </li>
+            </ul>
+            <div class="bar">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div class="container">
+            <section class="category_btn">
+                <ul>
+                    <li>
+                        <div class="btn_box">
+                            <div class="btn active" onclick="filter_Selection('all')">All</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn_box">
+                            <div class="btn" onclick="filter_Selection('web')">Web</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn_box">
+                            <div class="btn" onclick="filter_Selection('graphic')">Graphic</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn_box">
+                            <div class="btn" onclick="filter_Selection('animation')">Animation ‧ Motion</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn_box">
+                            <div class="btn" onclick="filter_Selection('illustration')">Illustration</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="btn_box">
+                            <a class="btn" href="https://ebi-eyes.tumblr.com/" target="_blank" >Photography</a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="work_content">
+                <ul>
+                    <li>
+                        <div class="item animation illustration">
+                            <a href="a-popo.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>POPO</span>
+                                    </div>
+                                    <!-- <img src="./img/a-popo.gif" alt=""> -->
+                                </div>
+                                <img src="./img/a-popo.gif" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation">
+                            <a href="a-Youenme-Film.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>YouEnMe Hostel</span>
+                                    </div>
+                                    <img src="./img/a-Youenme-fillm.gif" alt="">
+                                </div>
+                                <img src="./img/a-Youenme-fillm.gif" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation">
+                            <a href="a-baby-sign-language.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>BABY SIGN LANGUAGE</span>
+                                    </div>
+                                    <img src="./img/a-baby-sign-language 01.gif" alt="">
+                                </div>
+                                <img src="./img/a-baby-sign-language 01.gif" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="taipei-old-house-issue.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>TAIPEI OLD HOUSE ISSUE</span>
+                                    </div>
+                                    <img src="./img/G-Taipei Old House Issue 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Taipei Old House Issue.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration graphic">
+                            <a href="ill-Sento.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>LET'S GO TO SENTO</span>
+                                    </div>
+                                    <img src="./img/ill-Sento-02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-Sento-01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="ill-Stay-Real.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>STAY REAL</span>
+                                    </div>
+                                    <img src="./img/ill-Stay-Real-02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-Stay-Real-01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="shaver.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>BEARD MAN</span>
+                                    </div>
+                                    <img src="./img/G-Shaver 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Shaver.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="taipei-old-house-invitation.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>TAIPEI OLD HOUSE INVITIATION</span>
+                                    </div>
+                                    <img src="./img/G-Taipei Old House Invitation 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Taipei Old House Invitation.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="tai-jiang-photography.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>TAI JIANG PHOTOGRAPHY</span>
+                                    </div>
+                                    <img src="./img/G-TaiJiang Photography 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-TaiJiang Photography.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation illustration">
+                            <a href="jimmy-wish.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>JIMMY'S WISH</span>
+                                    </div>
+                                    <img src="./img/M-Jimmy's wish 02.jpg" alt="">
+                                </div>
+                                <img src="./img/M-Jimmy's wish.gif" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="g-Jeng Wen.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>JENG WEN</span>
+                                    </div>
+                                    <img src="./img/G-JengWen 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-JengWen 01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="ill-Love-city.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>LOVE THE CITY</span>
+                                    </div>
+                                    <img src="./img/ill-Love-city-02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-Love-city-01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration graphic">
+                            <a href="ill-Art-education.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>ART EDUCATION</span>
+                                    </div>
+                                    <img src="./img/ill-Art-education-02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-Art-education-01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="tai-jiang-school.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>TAI JIANG WETLAND SCHOOL</span>
+                                    </div>
+                                    <img src="./img/G-TaiJiang School 02.jpg" alt="">
+                                </div>
+                                <img src="./img/台江濕地DM-B.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration graphic">
+                            <a href="ill-Blue-Hour.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>BLUE HOUR</span>
+                                    </div>
+                                    <img src="./img/ill-Blue-Hour 02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-Blue-Hour 01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="togo.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>TOGO RURAL VILLAGE</span>
+                                    </div>
+                                    <img src="./img/G-Togo 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Togo.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation">
+                            <a href="li-da-luo.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>LI DA LUO</span>
+                                    </div>
+                                    <img src="./img/M-Li Da Luo 02.jpg" alt="">
+                                </div>
+                                <img src="./img/M-Li Da Luo.gif" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation">
+                            <a href="a-Baby-Game2.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>LIAO LIANG DING</span>
+                                    </div>
+                                    <img src="./img/a-Baby Game2 02.jpg" alt="">
+                                </div>
+                                <img src="./img/a-Baby Game2 02.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item animation">
+                            <a href="a-Dog-and-Girl.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>DOG & GIRL</span>
+                                    </div>
+                                    <img src="./img/a-Dog and girl 02.jpg" alt="">
+                                </div>
+                                <img src="./img/a-Dog and girl 01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="ill-A-Traveler.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>A TRAVELER</span>
+                                    </div>
+                                    <img src="./img/ill-a-traveler 02.jpg" alt="">
+                                </div>
+                                <img src="./img/ill-a-traveler 01.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item web">
+                            <a href="youenme.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>YOU EN ME</span>
+                                    </div>
+                                    <img src="./img/W-Youenme 02.jpg" alt="">
+                                </div>
+                                <img src="./img/W-Youenme.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item web">
+                            <a href="wowcool-hot-pot.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>WOWCOOL HOT POT</span>
+                                    </div>
+                                    <img src="./img/W-Wowcool hot pot 02.jpg" alt="">
+                                </div>
+                                <img src="./img/W-Wowcool hot pot.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="pudding-box.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>PUDDING BOX</span>
+                                    </div>
+                                    <img src="./img/G-Pudding Box 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Pudding Box.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item graphic">
+                            <a href="fried-rice.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>FRIED RICE</span>
+                                    </div>
+                                    <img src="./img/G-Fried Rice 02.jpg" alt="">
+                                </div>
+                                <img src="./img/G-Fried Rice.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="hotel-masstige.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>HOTEL MASSTIGE</span>
+                                    </div>
+                                    <img src="./img/Art-Hotel Masstige 02.jpg" alt="">
+                                </div>
+                                <img src="./img/Art-Hotel Masstige.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item illustration">
+                            <a href="somewhere-only-we-know.html">
+                                <div class="img2">
+                                    <div class="overlay">
+                                        <span>SOMEWHERE ONLY WE KNOW</span>
+                                    </div>
+                                    <img src="./img/Art-Somewhere only we know 02.jpg" alt="">
+                                </div>
+                                <img src="./img/Art-Somewhere only we know.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </article>
+    <footer>
+        <p>Copyright &copy; Ebby Kuo. All rights reserved.</p>
+    </footer>
+
+    <!-- ↓ Filter function -->
+    <script>
+        filter_Selection("all")
+        function filter_Selection(c) {
+            var x, i;
+            x = document.querySelectorAll(".item");
+            if (c == "all") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+            }
+        }
+
+        // Show filtered elements
+        function AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        // Hide elements that are not selected
+        function RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current control button (highlight it)
+        var category_btn = document.querySelector(".category_btn");
+        var btns = category_btn.querySelectorAll(".btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.querySelectorAll(".active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+    <!-- ↓ bar -->
+    <script>
+        var nav_btn = document.querySelector(".nav_btn");
+        var bar = document.querySelector(".bar");
+
+        bar.onclick = function () {
+            nav_btn.classList.toggle("active");
+        }
+
+    </script>
+</body>
+
+</html>

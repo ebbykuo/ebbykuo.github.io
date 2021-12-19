@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    height: 2800px;
+}
+nav{
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        @media (max-width:700px) {
+            flex-direction: unset;
+            align-items: unset;
+            justify-content: space-between;
+        }
+        .logo{
+            h1{
+                width: 200px;
+                margin-bottom: 10px;
+                .logo_show{
+                    width: 100%;
+                }
+                &:hover{
+                    .logo_show{
+                        display: none;
+                    }
+                    .logo_hover{
+                        display: block;
+                    }
+                }
+            }
+        }
+        .logo_hover{
+            display: none;
+        }
+        .nav_btn{
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            @media (max-width:700px) {
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                z-index: 2;
+                top: 120px;
+                background-color: #00ff00d8;
+                width: 100%;
+                margin: 0 -5%;
+                height: 0;
+                overflow: hidden;
+                transition-duration: 0.5s;
+                transition-timing-function: ease-in-out;
+                &.active{
+                    transition-timing-function: ease-in-out;
+                    height: 200px;
+                }
+            }
+            span{
+                padding: 0 17px;
+                font-size: 18px;
+                color: rgb(0, 0, 0);
+                @media (max-width:700px) {
+                    display: none;
+                }
+            }
+            li{
+                @media (max-width:700px){
+                    padding: 50px 0;
+                    &:last-child{
+                        margin-top: -60px;
+                    }
+                }
+            }
+            .text{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 22px;
+                color: black;
+                text-decoration: none;
+                transition: 0.2s;
+                @media (max-width:700px){
+                    font-size: 30px;
+                }
+                &:hover{
+                    color: grey;
+                    @media (max-width:700px){
+                        color: white;
+                    }
+                }
+            }
+        }
+        .bar{
+            display: none;
+            font-size: 30px;
+            margin-top: 35px;
+            @media (max-width:700px) {
+                display: block;
+                i{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+article{
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 5%;
+        @media (max-width:576px) {
+            max-width: 540px;
+            padding: 0 15px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .category_btn{
+            box-sizing: border-box;
+            padding: 0 10px;
+            margin-bottom: 70px;
+            .btn_box{
+                display: inline-block;
+                transition: 0.5s;
+                &:hover{
+                    transform: translateX(17px);
+                    @media (max-width:440px){
+                        transform: translateX(0);
+                    }
+                }
+                .btn{
+                    color: black;
+                    text-decoration: unset;
+                    padding-bottom: 3px;
+                    display: inline-block;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #00FF00;
+                    }
+                }
+            }
+            // ↓ 關係到JS運作。
+            .btn.active{
+                font-weight: 700;
+            }
+        }
+        .work_content{
+            padding-bottom: 100%;
+            @media (max-width:576px) {
+                padding-bottom: 900%;
+            }
+            li{
+                position: relative;
+                width: calc(100% / 3);
+                float: left;
+                img{
+                    width: 100%;
+                }
+                @media (max-width:992px) {
+                    width: 50%;
+                }
+                @media (max-width:700px) {
+                    width: 100%;
+                }
+            }
+            .overlay{
+                position: absolute;
+                overflow: hidden;
+                background-color: #00ff00;
+                height: 0;
+                // width: 0%;
+                transition: 0.3s;
+                span{
+                    font-size: 21px;
+                    font-weight: 700;
+                    color: white;
+                    padding: 3px 8px;
+                    display: block;
+                }
+            }
+            .img2{
+                position: absolute;
+                opacity: 0;
+                transition: 0.7s;
+            }
+            li:hover .overlay{
+                height: 35px;
+                // width: calc(100% - 20px);
+                // ↑ 還沒研究出來：從左邊滑入並依照文字的寬度呈現。
+            }
+            li:hover .img2{
+                opacity: 1;
+            }
+
+            .item{
+                position: relative;
+                margin: 5px 7px;
+                display: none;
+            }
+            .show{
+                display: block;
+            }
+        }
+    }
+}
+footer{
+    p{
+        position: fixed;
+        left: -90px;
+        bottom: 180px;
+        transform: rotate(-90deg);
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        @media (max-width:1200px) {
+            max-width: 500px;
+            margin: 100px auto 50px;
+            position: unset;
+            display: block;
+            max-width: 700px;
+            transform: rotate(0);
+            text-align: center;
+        }
+    }
+}
+// scrollbar
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px ghostwhite; 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(201, 200, 200); 
+    border-radius: 10px;
+    height: 100px;
+}
