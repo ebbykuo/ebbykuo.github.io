@@ -311,14 +311,15 @@ section .content .work_img .bg1 {
   margin-top: 10%;
 }
 
-section .content .work_img .group_poster {
+section .content .work_img .poster {
   max-width: 1140px;
   margin: auto;
-  padding: 0 5%;
+  padding: 0% 5%;
+  margin-bottom: 5%;
 }
 
 @media (min-width: 700px) {
-  section .content .work_img .group_poster {
+  section .content .work_img .poster {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -329,7 +330,7 @@ section .content .work_img .group_poster {
             justify-content: space-between;
     margin-bottom: 10%;
   }
-  section .content .work_img .group_poster img {
+  section .content .work_img .poster img {
     width: calc(97% / 2);
     -webkit-filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.801));
             filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.801));
@@ -339,7 +340,7 @@ section .content .work_img .group_poster {
 section .content .work_img .team1 {
   max-width: 1140px;
   margin: auto;
-  padding: 10% 5%;
+  padding: 10% 0%;
 }
 
 @media (min-width: 700px) {
